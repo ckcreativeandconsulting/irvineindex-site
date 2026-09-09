@@ -6,7 +6,7 @@ import { SITE_CONFIG } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Irvine Business Categories",
-  description: "Browse Irvine Index sample business categories for Irvine, CA."
+  description: "Browse Irvine Index business categories for Irvine, CA."
 };
 
 export default function CategoryIndexPage() {
@@ -15,7 +15,7 @@ export default function CategoryIndexPage() {
       <p className="text-sm font-semibold uppercase text-clay">Irvine categories</p>
       <h1 className="mt-2 text-4xl font-semibold text-ink">Browse Irvine business categories</h1>
       <p className="mt-4 max-w-2xl text-lg leading-8 text-ink/72">
-        These category pages are seeded with sample listings for the local MVP test.
+        Browse Irvine businesses by category and neighborhood.
       </p>
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {categories.map((category) => {
@@ -28,7 +28,7 @@ export default function CategoryIndexPage() {
                 <ArrowRight size={18} className="text-coast" aria-hidden="true" />
               </div>
               <p className="mt-3 text-sm leading-6 text-ink/68">{category.description}</p>
-              <p className="mt-4 text-sm font-semibold text-sage">{count} sample listings</p>
+              <p className="mt-4 text-sm font-semibold text-sage">{count} listings</p>
             </Link>
           );
         })}
@@ -36,3 +36,4 @@ export default function CategoryIndexPage() {
     </section>
   );
 }
+

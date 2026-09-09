@@ -37,7 +37,7 @@ export function SubmitBusinessForm() {
       <div className="grid gap-5 sm:grid-cols-2">
         <label className="grid gap-2 text-sm font-medium text-ink">
           Business name
-          <input required name="name" className="h-11 rounded border border-ink/15 px-3" placeholder="Sample Irvine business" />
+          <input required name="name" className="h-11 rounded border border-ink/15 px-3" placeholder="Irvine business name" />
         </label>
         <label className="grid gap-2 text-sm font-medium text-ink">
           Category
@@ -80,3 +80,4 @@ export function SubmitBusinessForm() {
     </form>
   );
 }
+

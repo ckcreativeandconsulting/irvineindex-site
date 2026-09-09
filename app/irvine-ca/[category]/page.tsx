@@ -24,7 +24,7 @@ export function generateMetadata({ params }: CategoryPageProps): Metadata {
 
   return {
     title: `${category.name} in Irvine, CA`,
-    description: `${category.description} Browse ${category.name.toLowerCase()} sample listings on Irvine Index.`
+    description: `${category.description} Browse ${category.name.toLowerCase()} listings on Irvine Index.`
   };
 }
 
@@ -60,3 +60,4 @@ export default function CategoryPage({ params }: CategoryPageProps) {
     </section>
   );
 }
+

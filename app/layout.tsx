@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_CONFIG.name}`
   },
   description:
-    "Irvine Index is a sample local directory MVP for discovering Irvine, CA businesses by category and neighborhood.",
+    "Irvine Index is a local directory for discovering Irvine, CA businesses by category and neighborhood.",
   openGraph: {
     title: SITE_CONFIG.name,
-    description: "A local business directory MVP for Irvine, California.",
+    description: "A local business directory for Irvine, California.",
     url: SITE_CONFIG.url,
     siteName: SITE_CONFIG.name,
     locale: "en_US",
@@ -52,7 +52,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="mt-16 border-t border-ink/10 bg-white">
           <div className="mx-auto grid max-w-6xl gap-4 px-4 py-8 text-sm text-ink/70 sm:grid-cols-[1fr_auto] sm:px-6 lg:px-8">
             <p>
-              {SITE_CONFIG.name} is a sample MVP by {SITE_CONFIG.owner}. Seed listings are sample data for local testing.
+              {SITE_CONFIG.name} is a local business directory by {SITE_CONFIG.owner} for Irvine, California.
             </p>
             <div className="flex gap-4">
               <Link className="hover:text-ink" href="/irvine-ca">Categories</Link>
@@ -64,3 +64,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+

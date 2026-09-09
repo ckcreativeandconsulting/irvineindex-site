@@ -32,7 +32,7 @@ export function SearchDirectory({ listings }: SearchDirectoryProps) {
       <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <p className="text-sm font-semibold uppercase text-clay">Search Irvine</p>
-          <h2 className="mt-2 text-2xl font-semibold text-ink sm:text-3xl">Find sample listings by name, category, or neighborhood</h2>
+          <h2 className="mt-2 text-2xl font-semibold text-ink sm:text-3xl">Find listings by name, category, or neighborhood</h2>
         </div>
         <label className="relative block w-full sm:max-w-sm">
           <span className="sr-only">Search listings</span>
@@ -51,8 +51,9 @@ export function SearchDirectory({ listings }: SearchDirectoryProps) {
         ))}
       </div>
       <p className="mt-5 text-sm text-ink/60">
-        Showing {Math.min(results.length, 9)} of {results.length} matching sample listings.
+        Showing {Math.min(results.length, 9)} of {results.length} matching listings.
       </p>
     </section>
   );
 }
+

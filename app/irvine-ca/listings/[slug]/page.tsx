@@ -25,7 +25,7 @@ export function generateMetadata({ params }: ListingPageProps): Metadata {
 
   return {
     title: `${listing.name} in ${listing.neighborhood}, Irvine`,
-    description: `${listing.description} Sample listing in ${listing.neighborhood}, Irvine, CA.`
+    description: `${listing.description} Listing in ${listing.neighborhood}, Irvine, CA.`
   };
 }
 
@@ -112,3 +112,4 @@ export default function ListingPage({ params }: ListingPageProps) {
     </>
   );
 }
+

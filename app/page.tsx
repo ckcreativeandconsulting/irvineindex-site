@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { ArrowRight, Building, ClipboardPenLine, MapPin, MousePointerClick } from "lucide-react";
+import { ArrowRight, Building, ClipboardPenLine, MapPin } from "lucide-react";
 import { ClickTracker } from "@/components/ClickTracker";
 import { ListingCard } from "@/components/ListingCard";
 import { SearchDirectory } from "@/components/SearchDirectory";
-import { categories, getFeaturedListings, getTopCategories, listings } from "@/lib/directory";
+import { getFeaturedListings, getTopCategories, listings } from "@/lib/directory";
 import { SITE_CONFIG } from "@/lib/site";
 
 export default function HomePage() {
@@ -24,7 +24,7 @@ export default function HomePage() {
               Find useful Irvine businesses by neighborhood and category.
             </h1>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-ink/72">
-              Irvine Index is a lean local directory MVP for the next 90 days: sample listings now, real Irvine submissions next.
+              Irvine Index helps residents discover local restaurants, services, clinics, shops, and neighborhood businesses across Irvine.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link className="inline-flex h-12 items-center justify-center gap-2 rounded bg-ink px-5 font-semibold text-white hover:bg-sage" href="#search">
@@ -37,28 +37,19 @@ export default function HomePage() {
             </div>
           </div>
           <div className="grid content-start gap-4 rounded border border-ink/10 bg-paper p-5 shadow-sm">
-            <div className="grid grid-cols-3 gap-3">
-              <div className="rounded bg-white p-4">
-                <p className="text-2xl font-semibold text-ink">{categories.length}</p>
-                <p className="mt-1 text-sm text-ink/65">Categories</p>
-              </div>
-              <div className="rounded bg-white p-4">
-                <p className="text-2xl font-semibold text-ink">{listings.length}</p>
-                <p className="mt-1 text-sm text-ink/65">Samples</p>
-              </div>
-              <div className="rounded bg-white p-4">
-                <p className="text-2xl font-semibold text-ink">90</p>
-                <p className="mt-1 text-sm text-ink/65">Day test</p>
-              </div>
-            </div>
             <div className="rounded bg-white p-5">
-              <div className="flex items-center gap-2 font-semibold text-ink">
-                <MousePointerClick size={18} aria-hidden="true" />
-                Kill/keep signals
-              </div>
+              <p className="text-sm font-semibold uppercase text-clay">Local guide</p>
+              <h2 className="mt-2 text-2xl font-semibold text-ink">Built around Irvine neighborhoods</h2>
               <p className="mt-3 text-sm leading-6 text-ink/68">
-                Track sessions, submitted listings, claimed updates, and outbound clicks before adding paid services.
+                Search by area, browse by category, and jump directly to business websites when you find a good fit.
               </p>
+            </div>
+            <div className="grid gap-3 sm:grid-cols-2">
+              {["Spectrum", "Woodbridge", "Turtle Rock", "University Town Center"].map((neighborhood) => (
+                <div key={neighborhood} className="rounded bg-white px-4 py-3 text-sm font-semibold text-ink/75">
+                  {neighborhood}
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -93,7 +84,7 @@ export default function HomePage() {
             <Building size={17} aria-hidden="true" />
             Founding listings
           </div>
-          <h2 className="mt-2 text-2xl font-semibold text-ink sm:text-3xl">Featured sample businesses</h2>
+          <h2 className="mt-2 text-2xl font-semibold text-ink sm:text-3xl">Featured Irvine businesses</h2>
           <div className="mt-7 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {featuredListings.map((listing) => (
               <ListingCard key={listing.slug} listing={listing} />
@@ -108,7 +99,7 @@ export default function HomePage() {
         <div className="rounded border border-ink/10 bg-ink p-6 text-white sm:p-8">
           <h2 className="text-2xl font-semibold">Own or manage an Irvine business?</h2>
           <p className="mt-3 max-w-2xl text-white/75">
-            Submit a listing for review. During the MVP test, submissions are saved locally so Charles can validate demand before adding paid tools.
+            Submit a listing for review and help Irvine residents find accurate local business information.
           </p>
           <Link className="mt-6 inline-flex h-11 items-center gap-2 rounded bg-citrus px-4 font-semibold text-ink hover:bg-white" href="/submit">
             Submit listing <ArrowRight size={17} aria-hidden="true" />
