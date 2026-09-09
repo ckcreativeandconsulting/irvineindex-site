@@ -67,7 +67,6 @@ export default function ListingPage({ params }: ListingPageProps) {
           <p className="text-sm font-semibold uppercase text-clay">{getCategoryName(listing.category)}</p>
           <div className="mt-3 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
             <h1 className="text-4xl font-semibold text-ink">{listing.name}</h1>
-            {listing.featured ? <span className="w-fit rounded bg-citrus/15 px-3 py-1 text-sm font-semibold text-ink">Founding listing</span> : null}
           </div>
           <p className="mt-5 text-lg leading-8 text-ink/72">{listing.description}</p>
           <dl className="mt-8 grid gap-4 sm:grid-cols-3">
@@ -112,4 +111,5 @@ export default function ListingPage({ params }: ListingPageProps) {
     </>
   );
 }
+
 

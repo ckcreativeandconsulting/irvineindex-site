@@ -26,7 +26,7 @@ npm run build
 
 ## Core Routes
 
-- `/` home page with Irvine headline, search, top categories, featured listings, and business CTA
+- `/` home page with Irvine headline, search, top categories, listings, and business CTA
 - `/irvine-ca` category index
 - `/irvine-ca/restaurants`
 - `/irvine-ca/home-services`
@@ -50,7 +50,6 @@ Edit `data/listings.json`. Each listing needs:
   "phone": "(949) 555-0128",
   "website": "https://example.com/business-name",
   "hours": "Hours to be confirmed",
-  "featured": false
 }
 ```
 
@@ -89,3 +88,5 @@ This is intentionally a no-cost analytics stub. It can later be swapped for firs
 This site is Irvine-only. The code keeps site and city config centralized in `lib/site.ts` so a later sibling city directory can be added without rewriting the directory model, but no multi-city UI is included.
 
 Out of scope: payments, auth, scraping, multi-city UI, paid services, paid ads, and paid APIs.
+
+

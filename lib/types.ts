@@ -13,5 +13,4 @@ export type Listing = {
   phone: string;
   website: string;
   hours: string;
-  featured: boolean;
 };

@@ -20,9 +20,6 @@ export function ListingCard({ listing }: ListingCardProps) {
             </Link>
           </h3>
         </div>
-        {listing.featured ? (
-          <span className="rounded bg-citrus/15 px-2 py-1 text-xs font-semibold text-ink">Founding</span>
-        ) : null}
       </div>
       <p className="mt-3 text-sm leading-6 text-ink/72">{listing.description}</p>
       <div className="mt-4 flex flex-wrap gap-3 text-sm text-ink/70">
@@ -52,3 +49,4 @@ export function ListingCard({ listing }: ListingCardProps) {
     </article>
   );
 }
+

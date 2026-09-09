@@ -17,8 +17,8 @@ export function getListingsByCategory(slug: string) {
   return listings.filter((listing) => listing.category === slug);
 }
 
-export function getFeaturedListings() {
-  return listings.filter((listing) => listing.featured).slice(0, 8);
+export function getHomeListings() {
+  return listings.slice(0, 8);
 }
 
 export function getListing(slug: string) {
@@ -46,3 +46,5 @@ export function searchListings(query: string) {
       .includes(normalized)
   );
 }
+
+

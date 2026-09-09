@@ -7,8 +7,7 @@
     "neighborhood": "Von Karman / Airport Area",
     "phone": "(949) 752-5222",
     "website": "https://www.bistango.com/",
-    "hours": "Mon–Thu 11:30am–9pm; Fri 11:30am–10pm; Sat 5pm–10pm; Sun closed",
-    "featured": true
+    "hours": "Mon–Thu 11:30am–9pm; Fri 11:30am–10pm; Sat 5pm–10pm; Sun closed"
   },
   {
     "name": "HiroNori Craft Ramen",
@@ -18,8 +17,7 @@
     "neighborhood": "Michelson / Irvine Business Complex",
     "phone": "(949) 536-5800",
     "website": "https://hironori.com/irvine",
-    "hours": "Hours to be confirmed",
-    "featured": true
+    "hours": "Hours to be confirmed"
   },
   {
     "name": "Habana",
@@ -29,8 +27,7 @@
     "neighborhood": "Spectrum",
     "phone": "(949) 419-0100",
     "website": "https://www.restauranthabana.com/",
-    "hours": "Hours to be confirmed",
-    "featured": true
+    "hours": "Hours to be confirmed"
   },
   {
     "name": "Javier's",
@@ -40,8 +37,7 @@
     "neighborhood": "Spectrum",
     "phone": "(949) 872-2101",
     "website": "https://www.javiersfinestfoods.com/irvine-spectrum",
-    "hours": "Sun–Thu 11am–10pm; Fri–Sat 11am–11pm",
-    "featured": false
+    "hours": "Sun–Thu 11am–10pm; Fri–Sat 11am–11pm"
   },
   {
     "name": "O Fine Japanese Cuisine",
@@ -51,8 +47,7 @@
     "neighborhood": "Quail Hill",
     "phone": "(949) 748-1896",
     "website": "https://www.ofjc.com/",
-    "hours": "Hours to be confirmed",
-    "featured": false
+    "hours": "Hours to be confirmed"
   },
   {
     "name": "Patriot Plumbing & Rooter",
@@ -62,8 +57,7 @@
     "neighborhood": "Irvine Spectrum / Technology Drive",
     "phone": "(949) 502-3354",
     "website": "https://patriotrooter.com/",
-    "hours": "24/7",
-    "featured": true
+    "hours": "24/7"
   },
   {
     "name": "MAYDAY",
@@ -73,8 +67,7 @@
     "neighborhood": "Technology Drive",
     "phone": "(949) 385-2828",
     "website": "https://www.maydayair.com/",
-    "hours": "Mon–Sun 8am–8pm",
-    "featured": true
+    "hours": "Mon–Sun 8am–8pm"
   },
   {
     "name": "O'Hagan Electric",
@@ -84,8 +77,7 @@
     "neighborhood": "Irvine",
     "phone": "(949) 877-4945",
     "website": "https://ohaganelectricians.com/",
-    "hours": "Hours to be confirmed",
-    "featured": false
+    "hours": "Hours to be confirmed"
   },
   {
     "name": "eMaids of Orange County",
@@ -95,8 +87,7 @@
     "neighborhood": "Irvine (service area)",
     "phone": "(949) 771-0444",
     "website": "https://emaidsinc.com/orange-county/irvine/",
-    "hours": "Mon–Fri 8am–8pm; Sat 8am–5pm; Sun closed",
-    "featured": false
+    "hours": "Mon–Fri 8am–8pm; Sat 8am–5pm; Sun closed"
   },
   {
     "name": "Hoag Urgent Care Los Olivos",
@@ -106,8 +97,7 @@
     "neighborhood": "Los Olivos / Spectrum area",
     "phone": "(949) 557-0600",
     "website": "https://www.hoagurgentcare.com/locations-urgent-care-near-me-open-now/urgent-care-irvine/",
-    "hours": "Mon–Fri 8am–8pm; Sat–Sun 8am–5pm",
-    "featured": true
+    "hours": "Mon–Fri 8am–8pm; Sat–Sun 8am–5pm"
   },
   {
     "name": "Trooth & Smiles",
@@ -117,8 +107,7 @@
     "neighborhood": "Sand Canyon / Irvine Center Drive",
     "phone": "(949) 346-9696",
     "website": "https://www.troothandsmiles.com/",
-    "hours": "Mon–Thu 9am–6pm; Fri 8am–3pm",
-    "featured": true
+    "hours": "Mon–Thu 9am–6pm; Fri 8am–3pm"
   },
   {
     "name": "Irvine Pet Hospital",
@@ -128,8 +117,7 @@
     "neighborhood": "Woodbridge / Creek Road",
     "phone": "(949) 551-0304",
     "website": "https://www.irvinepetcomplex.com/site/home",
-    "hours": "Mon–Fri 8am–6pm; Sat–Sun 8am–5pm",
-    "featured": false
+    "hours": "Mon–Fri 8am–6pm; Sat–Sun 8am–5pm"
   },
   {
     "name": "Pacific CARE Pet Emergency & Specialty",
@@ -139,8 +127,7 @@
     "neighborhood": "White Road / Irvine",
     "phone": "(949) 653-2846",
     "website": "https://www.pacificcarevets.com/",
-    "hours": "Open 24 hours",
-    "featured": false
+    "hours": "Open 24 hours"
   },
   {
     "name": "CrossFit Recharge",
@@ -150,8 +137,7 @@
     "neighborhood": "Sky Park / Airport Area",
     "phone": "(949) 660-8801",
     "website": "https://www.crossfitrechargeusa.com/",
-    "hours": "Mon–Fri 5:00am–8:00pm; Sat 7:00am–11:00am; Sun closed",
-    "featured": true
+    "hours": "Mon–Fri 5:00am–8:00pm; Sat 7:00am–11:00am; Sun closed"
   },
   {
     "name": "In Motion O.C. Irvine Physical Therapy",
@@ -161,8 +147,7 @@
     "neighborhood": "Von Karman / Airport Area",
     "phone": "(949) 861-8600",
     "website": "https://www.inmotionoc.com/locations/irvine-physical-therapy/",
-    "hours": "Mon–Fri 7am–7pm",
-    "featured": true
+    "hours": "Mon–Fri 7am–7pm"
   },
   {
     "name": "YogaSix Irvine",
@@ -172,8 +157,7 @@
     "neighborhood": "Culver / Walnut",
     "phone": "(949) 216-6171",
     "website": "https://www.yogasix.com/location/irvine",
-    "hours": "Hours to be confirmed",
-    "featured": false
+    "hours": "Hours to be confirmed"
   },
   {
     "name": "Pure Barre Irvine",
@@ -183,8 +167,7 @@
     "neighborhood": "Quail Hill",
     "phone": "(949) 500-5924",
     "website": "https://www.purebarre.com/location/irvine",
-    "hours": "Hours to be confirmed",
-    "featured": false
+    "hours": "Hours to be confirmed"
   },
   {
     "name": "Elite Prep Irvine",
@@ -194,8 +177,7 @@
     "neighborhood": "MacArthur / Airport Area",
     "phone": "(949) 252-9124",
     "website": "https://eliteprep.com/irvine",
-    "hours": "Mon closed; Tue–Fri 12:00pm–8:00pm; Sat 9:00am–5:00pm; Sun closed",
-    "featured": true
+    "hours": "Mon closed; Tue–Fri 12:00pm–8:00pm; Sat 9:00am–5:00pm; Sun closed"
   },
   {
     "name": "Sylvan Learning of Irvine",
@@ -205,8 +187,7 @@
     "neighborhood": "Woodbridge / Barranca",
     "phone": "(949) 391-4162",
     "website": "https://www.sylvanlearning.com/locations/us/ca/irvine-tutoring/irvine/",
-    "hours": "Mon–Fri 10:30am–6:30pm; Sat 9:30am–12:30pm; Sun closed",
-    "featured": true
+    "hours": "Mon–Fri 10:30am–6:30pm; Sat 9:30am–12:30pm; Sun closed"
   },
   {
     "name": "iLearn Education",
@@ -216,8 +197,7 @@
     "neighborhood": "Northwood / Roosevelt",
     "phone": "(949) 988-7918",
     "website": "https://www.ilearneducation.com/",
-    "hours": "Mon–Fri 10:00am–8:00pm; Sat 9:30am–4:00pm; Sun closed",
-    "featured": false
+    "hours": "Mon–Fri 10:00am–8:00pm; Sat 9:30am–4:00pm; Sun closed"
   },
   {
     "name": "Irvine Conservatory of Music",
@@ -227,8 +207,7 @@
     "neighborhood": "Irvine Boulevard",
     "phone": "(949) 682-9085",
     "website": "https://www.irvinecm.com/",
-    "hours": "Hours to be confirmed",
-    "featured": false
+    "hours": "Hours to be confirmed"
   },
   {
     "name": "Aveda Belle Isle Salon",
@@ -238,8 +217,7 @@
     "neighborhood": "Spectrum",
     "phone": "(949) 450-0300",
     "website": "https://www.avedabelleisle.com/",
-    "hours": "Sun–Thu 10am–9pm; Fri–Sat 10am–10pm",
-    "featured": true
+    "hours": "Sun–Thu 10am–9pm; Fri–Sat 10am–10pm"
   },
   {
     "name": "Deluxe Med Spa Irvine",
@@ -249,8 +227,7 @@
     "neighborhood": "Dupont / University Area",
     "phone": "(949) 350-8889",
     "website": "https://www.deluxemedspa.com/locations/irvine/",
-    "hours": "Mon–Sun 10am–7pm",
-    "featured": true
+    "hours": "Mon–Sun 10am–7pm"
   },
   {
     "name": "TREAT a Salon and Spa",
@@ -260,8 +237,7 @@
     "neighborhood": "Spectrum / Prism",
     "phone": "(949) 679-8312",
     "website": "https://www.treatsalonandspa.com/",
-    "hours": "Sun–Fri 11:00am–8:00pm; Sat 10:00am–7:00pm",
-    "featured": false
+    "hours": "Sun–Fri 11:00am–8:00pm; Sat 10:00am–7:00pm"
   },
   {
     "name": "European Wax Center Irvine",
@@ -271,7 +247,6 @@
     "neighborhood": "Barranca / Culver",
     "phone": "(949) 857-0770",
     "website": "https://locations.waxcenter.com/ca/irvine/",
-    "hours": "Sun 8am–5pm; Mon–Thu 9am–8pm; Fri 8am–8pm; Sat 8am–5pm",
-    "featured": false
+    "hours": "Sun 8am–5pm; Mon–Thu 9am–8pm; Fri 8am–8pm; Sat 8am–5pm"
   }
 ]

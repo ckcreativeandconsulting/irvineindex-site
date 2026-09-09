@@ -3,11 +3,11 @@ import { ArrowRight, Building, ClipboardPenLine, MapPin } from "lucide-react";
 import { ClickTracker } from "@/components/ClickTracker";
 import { ListingCard } from "@/components/ListingCard";
 import { SearchDirectory } from "@/components/SearchDirectory";
-import { getFeaturedListings, getTopCategories, listings } from "@/lib/directory";
+import { getHomeListings, getTopCategories, listings } from "@/lib/directory";
 import { SITE_CONFIG } from "@/lib/site";
 
 export default function HomePage() {
-  const featuredListings = getFeaturedListings();
+  const homeListings = getHomeListings();
   const topCategories = getTopCategories();
 
   return (
@@ -82,11 +82,11 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2 text-sm font-semibold uppercase text-clay">
             <Building size={17} aria-hidden="true" />
-            Founding listings
+            Irvine listings
           </div>
-          <h2 className="mt-2 text-2xl font-semibold text-ink sm:text-3xl">Featured Irvine businesses</h2>
+          <h2 className="mt-2 text-2xl font-semibold text-ink sm:text-3xl">Browse Irvine businesses</h2>
           <div className="mt-7 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {featuredListings.map((listing) => (
+            {homeListings.map((listing) => (
               <ListingCard key={listing.slug} listing={listing} />
             ))}
           </div>
