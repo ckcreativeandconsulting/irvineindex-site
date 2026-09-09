@@ -52,7 +52,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="mt-16 border-t border-ink/10 bg-white">
           <div className="mx-auto grid max-w-6xl gap-4 px-4 py-8 text-sm text-ink/70 sm:grid-cols-[1fr_auto] sm:px-6 lg:px-8">
             <p>
-              {SITE_CONFIG.name} is a local business directory by {SITE_CONFIG.owner} for Irvine, California.
+              {SITE_CONFIG.name} is an independent local guide to Irvine businesses.
             </p>
             <div className="flex gap-4">
               <Link className="hover:text-ink" href="/irvine-ca">Categories</Link>
@@ -64,4 +64,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+
 

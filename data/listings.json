@@ -141,5 +141,137 @@
     "website": "https://www.pacificcarevets.com/",
     "hours": "Open 24 hours",
     "featured": false
+  },
+  {
+    "name": "CrossFit Recharge",
+    "slug": "crossfit-recharge",
+    "category": "fitness-wellness",
+    "description": "CrossFit gym in Irvine offering functional fitness classes plus recovery amenities such as red-light therapy.",
+    "neighborhood": "Sky Park / Airport Area",
+    "phone": "(949) 660-8801",
+    "website": "https://www.crossfitrechargeusa.com/",
+    "hours": "Mon–Fri 5:00am–8:00pm; Sat 7:00am–11:00am; Sun closed",
+    "featured": true
+  },
+  {
+    "name": "In Motion O.C. Irvine Physical Therapy",
+    "slug": "in-motion-oc-irvine-physical-therapy",
+    "category": "fitness-wellness",
+    "description": "Physical therapy clinic on Von Karman offering land-based PT, aquatic therapy, and fitness coaching.",
+    "neighborhood": "Von Karman / Airport Area",
+    "phone": "(949) 861-8600",
+    "website": "https://www.inmotionoc.com/locations/irvine-physical-therapy/",
+    "hours": "Mon–Fri 7am–7pm",
+    "featured": true
+  },
+  {
+    "name": "YogaSix Irvine",
+    "slug": "yogasix-irvine",
+    "category": "fitness-wellness",
+    "description": "Yoga studio near Culver and Walnut offering heated and non-heated yoga class formats.",
+    "neighborhood": "Culver / Walnut",
+    "phone": "(949) 216-6171",
+    "website": "https://www.yogasix.com/location/irvine",
+    "hours": "Hours to be confirmed",
+    "featured": false
+  },
+  {
+    "name": "Pure Barre Irvine",
+    "slug": "pure-barre-irvine",
+    "category": "fitness-wellness",
+    "description": "Barre fitness studio in Quail Hill offering low-impact strength and ballet-barre inspired classes.",
+    "neighborhood": "Quail Hill",
+    "phone": "(949) 500-5924",
+    "website": "https://www.purebarre.com/location/irvine",
+    "hours": "Hours to be confirmed",
+    "featured": false
+  },
+  {
+    "name": "Elite Prep Irvine",
+    "slug": "elite-prep-irvine",
+    "category": "education-tutoring",
+    "description": "Test-prep and tutoring center on MacArthur Blvd offering SAT, ACT, AP prep, and academic tutoring.",
+    "neighborhood": "MacArthur / Airport Area",
+    "phone": "(949) 252-9124",
+    "website": "https://eliteprep.com/irvine",
+    "hours": "Mon closed; Tue–Fri 12:00pm–8:00pm; Sat 9:00am–5:00pm; Sun closed",
+    "featured": true
+  },
+  {
+    "name": "Sylvan Learning of Irvine",
+    "slug": "sylvan-learning-irvine",
+    "category": "education-tutoring",
+    "description": "K–12 tutoring center on Barranca Parkway offering reading, math, writing, and test-prep support.",
+    "neighborhood": "Woodbridge / Barranca",
+    "phone": "(949) 391-4162",
+    "website": "https://www.sylvanlearning.com/locations/us/ca/irvine-tutoring/irvine/",
+    "hours": "Mon–Fri 10:30am–6:30pm; Sat 9:30am–12:30pm; Sun closed",
+    "featured": true
+  },
+  {
+    "name": "iLearn Education",
+    "slug": "ilearn-education",
+    "category": "education-tutoring",
+    "description": "Irvine enrichment center on Roosevelt offering reading/writing, speech and debate, and test-prep classes.",
+    "neighborhood": "Northwood / Roosevelt",
+    "phone": "(949) 988-7918",
+    "website": "https://www.ilearneducation.com/",
+    "hours": "Mon–Fri 10:00am–8:00pm; Sat 9:30am–4:00pm; Sun closed",
+    "featured": false
+  },
+  {
+    "name": "Irvine Conservatory of Music",
+    "slug": "irvine-conservatory-of-music",
+    "category": "education-tutoring",
+    "description": "Steinway Select music school on Irvine Boulevard offering private lessons, group piano, and music theory.",
+    "neighborhood": "Irvine Boulevard",
+    "phone": "(949) 682-9085",
+    "website": "https://www.irvinecm.com/",
+    "hours": "Hours to be confirmed",
+    "featured": false
+  },
+  {
+    "name": "Aveda Belle Isle Salon",
+    "slug": "aveda-belle-isle-salon",
+    "category": "beauty-personal-care",
+    "description": "Full-service Aveda hair salon at Irvine Spectrum Center offering cuts, color, keratin treatments, and extensions.",
+    "neighborhood": "Spectrum",
+    "phone": "(949) 450-0300",
+    "website": "https://www.avedabelleisle.com/",
+    "hours": "Sun–Thu 10am–9pm; Fri–Sat 10am–10pm",
+    "featured": true
+  },
+  {
+    "name": "Deluxe Med Spa Irvine",
+    "slug": "deluxe-med-spa-irvine",
+    "category": "beauty-personal-care",
+    "description": "Medical spa on Dupont Drive offering injectables, laser treatments, HydraFacial, and related aesthetic services.",
+    "neighborhood": "Dupont / University Area",
+    "phone": "(949) 350-8889",
+    "website": "https://www.deluxemedspa.com/locations/irvine/",
+    "hours": "Mon–Sun 10am–7pm",
+    "featured": true
+  },
+  {
+    "name": "TREAT a Salon and Spa",
+    "slug": "treat-a-salon-and-spa",
+    "category": "beauty-personal-care",
+    "description": "Salon and spa near Spectrum offering hair, nails, facials, waxing, and related personal-care services.",
+    "neighborhood": "Spectrum / Prism",
+    "phone": "(949) 679-8312",
+    "website": "https://www.treatsalonandspa.com/",
+    "hours": "Sun–Fri 11:00am–8:00pm; Sat 10:00am–7:00pm",
+    "featured": false
+  },
+  {
+    "name": "European Wax Center Irvine",
+    "slug": "european-wax-center-irvine",
+    "category": "beauty-personal-care",
+    "description": "Waxing studio on Barranca Parkway offering facial and body waxing services including brows.",
+    "neighborhood": "Barranca / Culver",
+    "phone": "(949) 857-0770",
+    "website": "https://locations.waxcenter.com/ca/irvine/",
+    "hours": "Sun 8am–5pm; Mon–Thu 9am–8pm; Fri 8am–8pm; Sat 8am–5pm",
+    "featured": false
   }
 ]
