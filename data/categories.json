@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Restaurants",
+    "slug": "restaurants",
+    "description": "Casual meals, coffee, family dinners, and neighborhood dining around Irvine."
+  },
+  {
+    "name": "Home Services",
+    "slug": "home-services",
+    "description": "Local help for repairs, cleaning, landscaping, and home upkeep."
+  },
+  {
+    "name": "Medical & Dental",
+    "slug": "medical-dental",
+    "description": "Clinics, dental offices, wellness practices, and family care providers."
+  },
+  {
+    "name": "Fitness & Wellness",
+    "slug": "fitness-wellness",
+    "description": "Gyms, studios, trainers, recovery, and healthy routines."
+  },
+  {
+    "name": "Education & Tutoring",
+    "slug": "education-tutoring",
+    "description": "Tutoring, enrichment, test prep, and learning support."
+  },
+  {
+    "name": "Beauty & Personal Care",
+    "slug": "beauty-personal-care",
+    "description": "Hair, skin, nails, grooming, and self-care services."
+  },
+  {
+    "name": "Professional Services",
+    "slug": "professional-services",
+    "description": "Accountants, consultants, legal offices, and business services."
+  },
+  {
+    "name": "Shops & Boutiques",
+    "slug": "shops-boutiques",
+    "description": "Local retail, gifts, specialty shops, and everyday stops."
+  },
+  {
+    "name": "Pets",
+    "slug": "pets",
+    "description": "Grooming, pet care, supplies, and neighborhood services for pet owners."
+  }
+]
